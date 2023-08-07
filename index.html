@@ -10,13 +10,72 @@
 </head>
 
 <body>
-    <div class="header">
-        dsadasdas
+    <div class="container">
+        <div class="left-side">
+            <div class="images">
+                <div class="images-container">
+                    <img src="images/odin-lined.png" alt="" height="100px">
+                    <h1>ODIN</h1>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a>on <a href="unsplash.com">Unsplash</a></p>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="first">
+                <p>This is not a real service! You know you need something like this in your life to help you realize
+                    your deepest dreams.<br />
+                    Sing up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="" method="get">
+                <div class="second">
+                    <p>Let's do this!</p>
+                    <div class="form-main">
+                        <div class="left-forms">
+                            <div class="left-form">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="first_name" placeholder="Bob">
+                            </div>
+                            <div class="left-form">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="abc@hotmail.com">
+                            </div>
+                            <div class="left-form">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required>
+                                <p id="error"></p>
+                            </div>
+                        </div>
+                        <div class="right-forms">
+                            <div class="right-form">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="last_name" placeholder="Mcgillis">
+                            </div>
+                            <div class="right-form">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="5321234567">
+                            </div>
+                            <div class="right-form">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third">
+                    <button type="submit" class="submit-btn">Create Account</button>
+                    <div class="login">
+                        <p>Already have an account? <a href="">Log in</a></p>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
     </div>
-    <div class="img-container">
-        <img class="image1" src="img/halie-west-25xggax4bSA-unsplash.jpg" alt="">
-        <img class="image2" src="img/odin-lined.png" alt="">
-    </div>
+
     <script src="form.js"></script>
 </body>
 
